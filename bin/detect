@@ -4,5 +4,6 @@
 if [[ -f Aptfile ]]; then
   echo "Apt" && exit 0
 else
+  ls -lah
   echo "no" && exit 1
 fi
